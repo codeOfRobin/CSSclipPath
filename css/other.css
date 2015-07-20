@@ -1,0 +1,17 @@
+div
+{  height: 100%;
+  background-color: red;}
+
+.polygon-div {
+
+   -webkit-clip-path: polygon(20% 20%, 70% 20%, 70% 70%, 20% 70%);
+
+    -webkit-transition-property:  -webkit-clip-path;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-delay: 0s;
+
+  }
+.polygon-div:hover
+{
+ -webkit-clip-path:polygon(0% 0%, 100% 0%, 100% 100%,100% 0%);
+}
